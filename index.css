@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #c6c6c6;
+}
+
+/* utility class */
+.bg-white {
+  background-color: #fff;
+}
+
+.bold-txt {
+  font-weight: 700;
+}
+
+.normal-txt {
+  font-weight: 300;
+}
+
+.space-around {
+  padding: 10px 15px;
+}
+
+/* typography */
+h2,
+p {
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  padding: 0 15px 10px;
+}
+
+.post-header p {
+  padding: 0;
+}
+
+span {
+  margin: 0 5px;
+}
+
+/* images */
+
+img {
+  width: 100%;
+}
+
+.logo-img {
+  width: 175px;
+  height: 50px;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post-image:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+/* Layout */
+
+.container {
+  width: 375px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.post-container {
+  margin-bottom: 15px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
+}
+
+.post-btn-container {
+  display: flex;
+  width: 30px;
+  gap: 10px;
+  padding: 20px 15px 10px;
+}
+
+.icon-btn:active,
+.icon-btn:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
